@@ -1,37 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./signup.css">
-    <title>NFT Sign Up </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./signup.css" />
+    <title>NFT Sign Up</title>
+  </head>
+  <body>
     <nav>
-        <div class="nav__container">
-            <div class="nav__container-logo">
-                <img src="/Assets/nav-logo.png" alt="it is a logo" loading="lazy" />
-                <img src="/Assets/NFT Marketplace.png" alt="it is a text" loading="lazy" />
-            </div>
-            <div class="nav__container-right">
-                <button class="nav-bar">
-                    <img src="/Assets/nav menu.png" alt="it is a menu" loading="lazy" />
-                </button>
-                <button class="xmark"><i class="fa-solid fa-x "></i></button>
-                <ul class="container__right-list">
-                    <li><a href="#">Marketplace</a></li>
-                    <li><a href="#">Rankings</a></li>
-                    <li><a href="#">Connect a wallet</a></li>
-                </ul>
-                <div class="container__right-button">
-                    <a href="#">
-                        <button class="header__button">
-                            <img src="/Assets/User.png" alt="it is a user" /> Sign Up
-                        </button></a>
-                </div>
-            </div>
+      <div class="nav__container">
+        <div class="nav__container-logo">
+          <a href="../index.html">
+            <img src="/Assets/nav-logo.png" alt="it is a logo" loading="lazy" />
+            <img
+              src="/Assets/NFT Marketplace.png"
+              alt="it is a text"
+              loading="lazy"
+            />
+          </a>
         </div>
+        <div class="nav__container-right">
+          <button class="nav-bar">
+            <img src="/Assets/nav menu.png" alt="it is a menu" loading="lazy" />
+          </button>
+          <button class="xmark"><i class="fa-solid fa-x"></i></button>
+          <ul class="container__right-list">
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Rankings</a></li>
+            <li><a href="#">Connect a wallet</a></li>
+          </ul>
+          <div class="container__right-button">
+            <a href="#">
+              <button class="header__button">
+                <img src="/Assets/User.png" alt="it is a user" /> Sign Up
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
     </nav>
-</body>
-<script src="./signup.js"></script>
+    <main>
+      <section class="hero">
+        <div class="hero-imgbox">
+          <img
+            src="./signup-assets/hero-imgbox.png"
+            alt="It is a space image"
+            loading="lazy"
+            width="610"
+            height="691"
+          />
+        </div>
+        <div class="hero-textbox">
+          <div class="hero-textbox-title">
+            <h2>Create Account</h2>
+            <p>
+              Welcome! Enter Your details and start <br />
+              creating, collecting and selling NFTs
+            </p>
+          </div>
+          <div class="hero-textbox-inputs">
+            <div class="hero-textbox-inputs-input">
+              <img
+                src="./signup-assets/User.png"
+                alt="it is an user"
+                loading="lazy"
+                width="20"
+                height="20"
+              />
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="hero-textbox-inputs-input">
+              <img
+                src="./signup-assets/Inbox.png"
+                alt="it is an inbox"
+                loading="lazy"
+                width="20"
+                height="20"
+              />
+              <input type="email" placeholder="Email address" />
+            </div>
+            <div class="hero-textbox-inputs-input">
+              <img
+                src="./signup-assets/LockKey.png"
+                alt="it is an lockkey"
+                loading="lazy"
+                width="20"
+                height="20"
+              />
+              <input type="password" placeholder="Password" />
+            </div>
+            <div class="hero-textbox-inputs-input">
+              <img
+                src="./signup-assets/LockKey.png"
+                alt="it is an lockkey"
+                loading="lazy"
+                width="20"
+                height="20"
+              />
+              <input type="password" placeholder="Confirm Password" />
+            </div>
+          </div>
+          <div class="hero-textbox-button">
+            <button>Create Account</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-column1">
+          <a href="../index.html" class="logo">
+            <img src="/Assets/nav-logo.png" alt="it is a logo" loading="lazy" />
+            <img
+              src="/Assets/NFT Marketplace.png"
+              alt="it is a text"
+              loading="lazy"
+            />
+          </a>
+          <p>NFT marketplace UI created <br />with Anima for Figma.</p>
+          <div class="footer-column1-community">
+            <p>Join our community</p>
+            <div class="footer-column1-community-brand">
+              <img
+                src="./signup-assets/DiscordLogo.png"
+                alt="It is a discord logo"
+                loading="lazy"
+                width="32"
+                height="32"
+              />
+              <img
+                src="./signup-assets/YoutubeLogo.png"
+                alt="It is a youtube logo"
+                loading="lazy"
+                width="32"
+                height="32"
+              />
+              <img
+                src="./signup-assets/TwitterLogo.png"
+                alt="It is a twitter logo"
+                loading="lazy"
+                width="32"
+                height="32"
+              />
+              <img
+                src="./signup-assets/InstagramLogo.png"
+                alt="It is an instagram logo"
+                loading="lazy"
+                width="32"
+                height="32"
+              />
+            </div>
+          </div>
+        </div>
+          <div class="footer-column2">
+            <h2>Explore</h2>
+            <a href="#">
+              <p>Marketplace</p> </a
+            ><a href="#">
+              <p>Rankings</p> </a
+            ><a href="#">
+              <p>Connect a wallet</p>
+            </a>
+          </div>
+          <div class="footer-column3">
+            <h2>Join Our weekly Digest</h2>
+            <p>Get exclusive promotions & updates <br>straight to your inbox.</p>
+            <div class="footer-column3-input">
+                <input type="email" placeholder="Enter Your Email here">
+                <button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="footer-copyright">
+          <small>Ⓒ NFT Market. Use this template freely.</small>
+        </div>
+    </footer>
+  </body>
+  <script src="./signup.js"></script>
 </html>
