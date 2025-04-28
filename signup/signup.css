@@ -111,6 +111,24 @@ button, input{
   color: #fff;
   font-size: 22px;
 }
+.container__right-list li a {
+  position: relative;
+  transition: all 0.5s ease-in;
+}
+.container__right-list li a::before {
+  content: "";
+  position: absolute;
+  width: 0; /* Start hidden */
+  height: 2px;
+  background: rgba(162, 89, 255, 1);
+  bottom: -3px;
+  left: 50%;
+  transition: all 0.5s ease-in-out;
+  transform: translateX(-50%);
+}
+.container__right-list li a:hover::before {
+  width: 100%;
+} 
 /* nav end */
 /* Main, Hero Begin */
 
@@ -387,6 +405,11 @@ button, input{
   .footer-column3-input input {
     padding: 12px 50px;
     border-radius: 16px;
+  }
+  .footer-column3-input button {
+    padding: 12px 107px;
+    border-radius: 16px;
+    transform: translateX(0);
   }
 }
 
