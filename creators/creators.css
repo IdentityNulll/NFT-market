@@ -154,6 +154,35 @@ input {
 .container__right-list li a:hover::before {
     width: 100%;
 }
+/* Header end */
+/* Creators begin */
+
+.creators-container {
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 30px !important;
+    margin: 0 auto;
+}
+.creators-title {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.creators-title h3 {
+    font-size: 51px;
+    font-weight: 600;
+    color: #fff;
+}
+.creators-title p {
+    color: #ffffffbf;
+    font-size: 22px;
+    font-weight: 400;
+}
+.creators-datebox{
+    display: flex;
+    
+}
+
 
 
 
